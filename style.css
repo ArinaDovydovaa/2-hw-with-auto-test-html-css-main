@@ -1,82 +1,152 @@
 * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     /* Свойства для сброса начальных стилей элементов */
 }
 
 body {}
 
 header {
+    width: 1440px;
+    height: 70px;
+    background-color: #2965F1;
     /* Стили для хедера */
 }
 
 header span {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
     /* Стили для текста в хедере IT-INCUBATOR */
 }
 
 .main-section {
+    width: 1440px;
+    height: 1024px;
     /* Стили для первой секции */
 }
 
 .main-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #303030;
     /* Стили для заголовка в первой секции */
 }
 
 .main-text {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #303030;
     /* Стили для текста в первой секции */
 }
 
 .main-image {
+    height: 508px;
+    width: 715px;
     /* Стили для изображения в первой секции */
 }
 
 
 .about-section {
+    width: 1440px;
+    height: 883px;
     /* Стили для второй секции */
 }
 
 select {
+    width: 150px;
+    height: 36px;
     /* Стили для выпадающего списка */
 }
 
 .section-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #303030;
     /* Стили для заголовков во второй секции */
 }
 
 .frameworks-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
+    width: 80px;
+    height: 57px;
+    background: #fff;
     /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
+    width: 670px;
+    height: 57px;
+    background: #fff;
+
     /* Стили для нумерованного списка во второй секции */
 }
 
 .label {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
     /* Стили для подписей чекбоксов */
 }
 
 .text-field {
+    width: 330px;
+    height: 36px;
     /* Стили для односточного поля ввода текста */
 }
 
 .btn {
+    width: 125px;
+    height: 36px;
     /* Стили для кнопки */
 }
 
 .line {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    width: 1440px;
+    height: 0px;
     /* Стили для линии */
 }
 
 table {
+    width: 300px;
+    height: 196px;
     /* Стили для таблицы */
 }
 
 th, td {
+    width: 300px;
+    height: 40px;
     /* Стили для ячеек таблицы */
 }
 
 footer {
+    width: 1440px;
+    height: 70px;
     /* Стили для футера */
 }
 
 .footer-link {
+    width: 78px;
+    height: 17px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2965f1;
     /* Стили для футера */
 }
