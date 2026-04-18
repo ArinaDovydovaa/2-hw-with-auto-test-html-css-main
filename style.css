@@ -7,6 +7,9 @@
 
 body {
     font-family: "Inter", sans-serif;
+    color: #303030;
+    font-style: normal;
+    line-height: normal;
 }
 
 header {
@@ -18,7 +21,6 @@ header {
 }
 
 header span {
-    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 20px;
     color: #fff;
@@ -35,19 +37,15 @@ header span {
 }
 
 .main-title {
-    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 48px;
-    color: #303030;
     margin-bottom:20px;
     /* Стили для заголовка в первой секции */
 }
 
 .main-text {
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
+    /*font-weight: 400;*/
     font-size: 18px;
-    color: #303030;
     /* Стили для текста в первой секции */
 }
 
@@ -60,26 +58,28 @@ header span {
 .about-section {
     background-color: #fff;
     padding: 100px 0;
-    width: 1440px;
-    height: 883px;
+    /*width: 1440px;*/
+    /*height: 883px;*/
     /* Стили для второй секции */
 }
 
 select {
     width: 150px;
-    padding: 9px 87px 8px 12px;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
     font-size: 16px;
-    color: #303030;
-    /* Стили для выпадающего списка */
+    font-weight: 400;
+    padding: 9px 87px 8px 12px;
+
+    appearance: none;
+    /*убираем стрелку, которую браузер отображает по умолчанию*/
+    background-image: url("./assets/images/ep_arrow-down.svg");
+    background-repeat: no-repeat;
+    background-position: right 4px top 50%;
 }
 
+
 .section-title {
-    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 24px;
-    color: #303030;
     margin-bottom: 25px;
     /* Стили для заголовков во второй секции */
 }
@@ -96,10 +96,8 @@ select {
     list-style-image: url("assets/images/solar_map-arrow-up-bold.svg");
     padding-left: 20px;
 
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
     /* Стили для маркированного списка во второй секции */
 }
 
@@ -113,19 +111,15 @@ select {
     height: 57px;
     background: #fff;
 
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
     padding-left: 20px;
     /* Стили для нумерованного списка во второй секции */
 }
 
 .label {
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
     /* Стили для подписей чекбоксов */
 }
 
@@ -133,14 +127,13 @@ select {
     border: 1px solid rgba(48, 48, 48, 0.3);
     border-radius: 5px;
     width: 330px;
-    height: 36px;
-    background: rgba(255, 255, 255, 0);
-    padding: 9px 215px 8px 12px;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
+    /*height: 36px;*/
+    padding: 9px ;
+
+    font-weight: normal;
     font-size: 16px;
-    color: rgba(48, 48, 48, 0.2);
-    /* Стили для односточного поля ввода текста */
+    color: #303030;
+    /* Стили для однострочного поля ввода текста */
 }
 
 .btn {
@@ -149,7 +142,7 @@ select {
     width: 125px;
     height: 36px;
     background: #2965f1;
-    font-family: "Inter", sans-serif;
+
     font-weight: 700;
     font-size: 14px;
     color: #fff;
@@ -158,7 +151,6 @@ select {
 
 .line {
     border: 1px solid rgba(48, 48, 48, 0.3);
-    width: 1440px;
     height: 0px;
     margin: 60px 0;
     /* Стили для линии */
@@ -170,42 +162,32 @@ table {
     border-collapse: collapse;
     border: 1px solid #95a1bb;
 
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 14px;
-    color: #303030;
+
     /* Стили для таблицы */
 }
 
 .table-header{
-    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 14px;
     text-align: center;
-    color: #303030;
+
 }
 
 th, td {
     padding: 11px 0px 12px 15px;
-
     /* Стили для ячеек таблицы */
 }
 
 footer {
     background-color: rgba(163, 167, 255, 0.3);
-    padding: 27px 0px;
-
-    width: 1440px;
-    height: 70px;
+    padding: 27px;
     /* Стили для футера */
 }
 
 .footer-link {
     text-decoration: none;
-    width: 78px;
-    height: 17px;
-
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #2965f1;
