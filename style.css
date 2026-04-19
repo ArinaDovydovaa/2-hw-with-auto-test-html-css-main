@@ -94,7 +94,7 @@ select {
     height: 57px;
     background: #fff;
     list-style-image: url("assets/images/solar_map-arrow-up-bold.svg");
-    padding-left: 20px;
+    padding: 0 20px;
 
     font-weight: 400;
     font-size: 16px;
@@ -113,7 +113,7 @@ select {
 
     font-weight: 400;
     font-size: 16px;
-    padding-left: 20px;
+    padding: 0 20px;
     /* Стили для нумерованного списка во второй секции */
 }
 
@@ -176,13 +176,13 @@ table {
 }
 
 th, td {
-    padding: 11px 0px 12px 15px;
+    padding: 12px 15px;
     /* Стили для ячеек таблицы */
 }
 
 footer {
     background-color: rgba(163, 167, 255, 0.3);
-    padding: 27px;
+    padding: 26px 0;
     /* Стили для футера */
 }
 
